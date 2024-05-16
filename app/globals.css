@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.center {
+    margin-left: 15%;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-large {
+    font-size: xx-large;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.dashboard {}
+
+.dashboard-top {
+    display: flex;
+    margin-left: 5%;
+}
+
+.line-chart {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.gauges {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.pie-chart {
+    margin-left: 5%;
+}
